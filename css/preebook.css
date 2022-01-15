@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
-    background-color:#AAAAAA;
-    padding :70px;
+    background-color:#FFFFFF;
+    
     font-family: 'Poppins', sans-serif;
 }
 .preebook{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    justify-items: center;
+    padding :30px 140px;
+    /* background-color: black; */
 }
 .preebook-left{
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 .preebook-left>h3{
     font-size: 52px ;
     margin-bottom: 0;
 }
-.preebook-left>button{
+button{
     position: absolute;
     width: 196px;
     height: 44px;
@@ -42,14 +45,14 @@ border-radius: 41px;
 
 
 /* popular Collection */
-.popular-collection-section{
-    margin: 226px;
+.popular-collection-section,.tour{
+    margin: 80px 180px;
 }
 .popular-collection{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    /* background-color: #A2AFBD; */
     
 }
 .pc-grid{
@@ -92,4 +95,19 @@ border-radius: 41px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+.tour{
+    display: flex;
+    justify-content: space-between;
+}
+.tour>div{
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
