@@ -131,3 +131,11 @@ footer{
 
   
 }
+
+/* for medium device */
+@media only screen and (min-width:689px) and (max-width:1199px) {
+    .pc-grid, .tour{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
