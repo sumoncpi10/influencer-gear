@@ -111,3 +111,23 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+
+/* for small device */
+
+@media only screen  and (max-width:688px){
+    .preebook, .pc-grid, .tour{
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    .preebook-right{
+        padding: 40px 0px;
+    }
+
+  
+}
