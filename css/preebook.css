@@ -42,6 +42,22 @@ border-radius: 41px;
    
 }
 
+.logo-section{
+    padding: 0px 180px 0px 180px;
+}
+.logo-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: gainsboro solid;
+    
+    
+}
+.logo-brand img{
+    padding: 60px 30px;
+
+}
 
 
 /* popular Collection */
