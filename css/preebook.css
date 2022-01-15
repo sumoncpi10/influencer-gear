@@ -12,9 +12,7 @@ body{
     padding :30px 140px;
     /* background-color: black; */
 }
-.preebook-left{
-    /* background-color: cyan; */
-}
+
 .preebook-left>h3{
     font-size: 52px ;
     margin-bottom: 0;
@@ -39,7 +37,13 @@ border-radius: 41px;
 .preebook-right img{
     width: 440px;
     height:414px;
-   
+    
+    transition: width 2s ease-in-out;
+}
+.preebook-right img:hover
+{
+    width: 70%;
+    
 }
 
 .logo-section{
