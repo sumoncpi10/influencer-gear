@@ -3,7 +3,26 @@ body{
     padding :70px;
 }
 .preebook{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.preebook-left{
+    background-color: cyan;
+}
+.preebook-left>h3{
+    font-size: 52px ;
+    margin-bottom: 0;
+}
+.preebook-left>button{
+    position: absolute;
+width: 196px;
+height: 44px;
+/* left: 120px; */
+
+
+background: #E02C6D;
+border-radius: 41px;
 }
 .preebook-right{
     background-image: url("../images/Circle\ design.svg");
@@ -13,4 +32,5 @@ body{
 .preebook-right img{
     width: 440px;
     height:414px;
+   
 }
